@@ -17,4 +17,4 @@ COPY feed.py /usr/bin/feed.py
 
 COPY entrypoints.sh /entrypoints.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoints.sh"]
